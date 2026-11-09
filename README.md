@@ -2,7 +2,7 @@
 
 A high-performance ASP.NET Core Web API built with **.NET 10** and **Entity Framework Core**, using **[Devart dotConnect for PostgreSQL](https://www.devart.com/dotconnect/postgresql/?utm_source=kanaiyakatarmal.com&utm_medium=referral&utm_campaign=cc_pr_kanaiyakatarmal)** (`Devart.Data.PostgreSql.EFCore`) as the database provider.
 
-The PostgreSQL schema and relationships were discovered and verified with the **ADO.NET-based Devart PostgreSQL MCP Server**. This keeps the .NET workflow on the ADO.NET + dotConnect stack without requiring an ODBC driver or DSN.
+The PostgreSQL schema and relationships were discovered and verified with the **ADO.NET-based Devart MCP Server for PostgreSQL**. This keeps the .NET workflow on the ADO.NET + dotConnect stack without requiring an ODBC driver or DSN.
 
 ---
 
@@ -114,7 +114,7 @@ The generated SQL is provider-dependent. To inspect the exact SQL produced by yo
 - [Devart dotConnect for PostgreSQL](https://www.devart.com/dotconnect/postgresql/?utm_source=kanaiyakatarmal.com&utm_medium=referral&utm_campaign=cc_pr_kanaiyakatarmal) and a valid license/trial key
 - For schema discovery with MCP: [.NET 8.0 runtime or later](https://dotnet.microsoft.com/) and [Devart.Mcp.PostgreSql on NuGet](https://www.nuget.org/packages/Devart.Mcp.PostgreSql)
 
-### Install the ADO.NET-based Devart PostgreSQL MCP Server
+### Install the ADO.NET-based Devart MCP Server for PostgreSQL
 
 ```powershell
 dotnet tool install --global Devart.Mcp.PostgreSql
@@ -132,7 +132,7 @@ Configure a profile for your PostgreSQL database, then select that profile in yo
 
 For connection-string options, see the [dotConnect for PostgreSQL connection string reference](https://www.devart.com/dotconnect/postgresql/connection-strings.html?utm_source=kanaiyakatarmal.com&utm_medium=referral&utm_campaign=cc_pr_kanaiyakatarmal).
 
-For source code and the ADO.NET implementation, see the [Devart PostgreSQL MCP Server repository](https://github.com/devart-ai-connectivity/devart-mcp-server-postgresql).
+For source code and the ADO.NET implementation, see the [Devart MCP Server for PostgreSQL repository](https://github.com/devart-ai-connectivity/devart-mcp-server-postgresql).
 
 If you work with other data sources or already have ODBC drivers installed, see [Devart MCP Server Universal](https://www.devart.com/mcp/universal/?utm_source=kanaiyakatarmal.com&utm_medium=referral&utm_campaign=cc_pr_kanaiyakatarmal).
 
