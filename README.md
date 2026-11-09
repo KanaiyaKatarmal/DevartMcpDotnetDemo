@@ -264,7 +264,7 @@ The following illustrates the response shape and example values. The actual resp
 - [Devart.Mcp.PostgreSql on NuGet](https://www.nuget.org/packages/Devart.Mcp.PostgreSql)
 - [dotConnect for PostgreSQL connection string reference](https://www.devart.com/dotconnect/postgresql/connection-strings.html?utm_source=kanaiyakatarmal.com&utm_medium=referral&utm_campaign=cc_pr_kanaiyakatarmal)
 - [Devart MCP Server Universal](https://www.devart.com/mcp/universal/?utm_source=kanaiyakatarmal.com&utm_medium=referral&utm_campaign=cc_pr_kanaiyakatarmal)
-- [Devart PostgreSQL MCP Server source repository](https://github.com/devart-ai-connectivity/devart-mcp-server-postgresql)
+- [Devart MCP Server for PostgreSQL source repository](https://github.com/devart-ai-connectivity/devart-mcp-server-postgresql)
 
 ---
 
